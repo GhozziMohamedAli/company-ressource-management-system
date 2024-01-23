@@ -1,0 +1,38 @@
+label {
+    float:right;
+}
+
+.form-select {
+    background-position: left 0.75rem center;
+}
+
+.bootstrap-datetimepicker-widget{
+    float:right;
+    inset: 0;
+}
+
+.row .col-8 h6 {
+    float:right;
+}
+.text-xs{
+    text-align: center;
+}
+
+#carImagesModalLabel {
+    
+    margin-left: 25px;
+}
+
+.col-4 > h6 {
+    float:right;
+}
+.numbers p {
+    float:right;
+}
+
+.numbers h5 {
+    
+    margin-right:15px;
+    float:right;
+}
+
