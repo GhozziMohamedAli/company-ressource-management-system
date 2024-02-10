@@ -104,9 +104,14 @@
                     document.getElementById("modal_passport_end_date").innerHTML='';
                     document.getElementById("modal_residency_number").innerHTML='';
                     document.getElementById("modal_residency_end_date").innerHTML='';
-                    if(result.data.status == 1){
+                   
+                    if($('#current_local').val() == 'ar' && result.data.status == 1){
+                        $('#modal_status').append('يعمل');
+                    }else if($('#current_local').val() == 'ar' && result.data.status == 2){
+                        $('#modal_status').append('إجازة');
+                    }else if($('#current_local').val() == 'en' && result.data.status == 1){
                         $('#modal_status').append("working");
-                    }else{
+                    }else if($('#current_local').val() == 'en' && result.data.status == 1){
                         $('#modal_status').append("vaccation");
                     }
                    

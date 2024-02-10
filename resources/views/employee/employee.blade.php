@@ -2,26 +2,27 @@
 @section("content")
 
 <div class="container-fluid py-4">
+  
+    <a href="/employee/add-employee">
+      <button class="btn btn-success"> {{ __('+ Add Employee') }} </button>
+    </a>
+  
     <div class="row">
       <div class="col-12">
         <div class="card mb-4">
+         
           <div class="card-header pb-0">
             <div class="row">
               <div class="col-4">
                 <h6>{{__('Employee List')}}</h6>
               </div>
-              <div class="input-group mb-3 col-4">
+              <div class="input-group mb-3 col-8">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-search" aria-hidden="true"></i></span>
                 </div>
                 <input type="text" class="form-control search-input" data-table="list" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{__('search_here')}}">
               </div>
-              <div class="col-4 d-flex justify-content-end">
-                <a href="/employee/add-employee">
-                  <button class="btn btn-success"> {{ __('+ Add Employee') }} </button>
-                </a>
-                  
-              </div>
+             
             </div>
            
          
@@ -165,10 +166,10 @@
           <div class="col-6">
             
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('status')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                
                 <p id="modal_status"></p>
               </div>
@@ -176,60 +177,60 @@
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('name')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_name"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Birth date')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_birth_date"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Profession')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_profession"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Phone number')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_phone_number"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Start of employment')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_employment_start"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Start of employment in Hijri')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_hijri_employment_start"></p>
               </div>
               
@@ -239,10 +240,10 @@
           </div>
           <div class="col-6">
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Bank account number')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_bank_account_number"></p>
               </div>
               
@@ -251,40 +252,40 @@
             
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Passport Number')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_passport_number"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Passport End Date')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_passport_end_date"></p>
               </div>
               <hr>
             </div>
  
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Residency Number')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_residency_number"></p>
               </div>
               
             </div>
             <hr>
             <div class="row">
-              <div class="col-4">
+              <div class="col-6">
                 <span class="font-weight-bold">{{__('Residency End Date')}} </span> 
               </div>
-              <div class="col-8">
+              <div class="col-6">
                 <p id="modal_residency_end_date"></p>
               </div>
               

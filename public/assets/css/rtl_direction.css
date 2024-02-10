@@ -36,3 +36,6 @@ label {
     float:right;
 }
 
+.toggle-right-pd{
+    padding-right:1rem !important;
+}

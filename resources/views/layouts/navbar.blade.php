@@ -18,8 +18,8 @@
             
             
                             
-              <a href="#" class="btn bg-gradient-dark dropdown-toggle " data-bs-toggle="dropdown" id="navbarDropdownMenuLink2">
-                <img class="w-10" src="@if(session('direction') == 'rtl') {{asset('assets/img/saudi-arabia.png')}} @else {{asset('assets/img/united-states.png')}} @endif"> {{__('Language')}}
+              <a href="#" class="btn bg-gradient-secondary dropdown-toggle " data-bs-toggle="dropdown" id="navbarDropdownMenuLink2">
+                 {{__('Language')}}
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
                   <li>
@@ -49,12 +49,23 @@
                   <span class="d-sm-inline d-none">{{__('Sign out')}}</span>
                 </a>
               </li>
-              
+              <li class="nav-item d-xl-none ps-3 pe-0 d-flex align-items-center toggle-right-pd">
+                <a href="javascript:;" class="nav-link text-white p-0">
+                  <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                    <div class="sidenav-toggler-inner">
+                      <i class="sidenav-toggler-line bg-white"></i>
+                      <i class="sidenav-toggler-line bg-white"></i>
+                      <i class="sidenav-toggler-line bg-white"></i>
+                    </div>
+                  </a>
+                </a>
+              </li>
            
 
 
               
             </ul>
+
             @endauth
           </div>
         </div>

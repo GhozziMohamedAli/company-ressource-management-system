@@ -42,6 +42,10 @@
 @endif
 
 <div class="container-fluid py-4">
+  
+                
+    <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success"> {{ __('+ Add Document') }} </button>  
+  
  
     <div class="row">
       <div class="col-12">
@@ -51,18 +55,13 @@
               <div class="col-4">
                 <h6>{{__('Document List')}}</h6>
               </div>
-              <div class="input-group mb-3 col-4">
+              <div class="input-group mb-3 col-8">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-search" aria-hidden="true"></i></span>
                 </div>
                 <input type="text" class="form-control search-input" data-table="list" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="{{__('search_here')}}">
               </div>
-              <div class="col-4 d-flex justify-content-end">
-                
-                  <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success"> {{ __('+ Add Document') }} </button>
-                
-                  
-              </div>
+             
             </div>
            
          
